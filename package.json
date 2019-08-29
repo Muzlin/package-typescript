@@ -1,6 +1,6 @@
 {
   "name": "package-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "私有包ts模板",
   "devDependencies": {
