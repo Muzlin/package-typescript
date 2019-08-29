@@ -1,16 +1,20 @@
 {
-  "name": "{{name}}",
-  "version": "{{version}}",
-  "description": "{{description}}",
+  "name": "name",
+  "version": "0.0.1",
+  "description": "description",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "release": "npm run build && num run release"
+    "dev": "nodemon",
+    "release": "npm run build && npm publish"
   },
-  "author": "",
+  "author": "author",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^1.17.1",
-    "tslint": "^5.16.0"
+    "tslint": "^5.16.0",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.4.5",
+    "tsconfig-paths": "^3.8.0"
   }
 }

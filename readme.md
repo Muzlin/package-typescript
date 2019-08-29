@@ -6,6 +6,13 @@
 # download project
 vue init gitlab:http://192.168.0.246:front-template/package-typescript my-project
 
-# install dependencies
+# install global dependencies
+npm install -g typescript
+npm install -g nodemon
+
+# install local dependencies
 npm install
+
+# dev
+npm run dev
 ```
