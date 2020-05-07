@@ -5,5 +5,9 @@
   "description": "私有包ts模板",
   "devDependencies": {
     "vue-cli": "^2.8.2"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "nodemon": "^2.0.3"
   }
 }
